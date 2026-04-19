@@ -30,7 +30,7 @@ I enjoy working with **Angular, Ionic, PHP, and MySQL**, and I am continuously e
 
 
 ### 🙋 About Page
-![About](screenshots/about.png)
+<img width="1891" height="867" alt="about" src="https://github.com/user-attachments/assets/f7e0ac00-50c8-441e-8c59-e20c1dc4f2af" />
 
 ### 💡 Skills Page
 <img width="1867" height="878" alt="skills" src="https://github.com/user-attachments/assets/075d9699-3280-4b2b-8037-ec23aac7d850" />
