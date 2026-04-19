@@ -15,11 +15,10 @@ I enjoy working with **Angular, Ionic, PHP, and MySQL**, and I am continuously e
 ## 🛠️ Tech Stack
 
 - ⚡ Frontend: HTML5, CSS3, JavaScript, Angular
-- 📱 Mobile: Ionic Framework
-- 🖥️ Backend: PHP (MVC Architecture)
-- 🗄️ Database: MySQL / phpMyAdmin
 - 🎨 Styling: SCSS / Bootstrap
 - 🔧 Tools: VS Code, Git, GitHub
+- 📧 Email Service: EmailJS (for contact form)
+
 
 ---
 
