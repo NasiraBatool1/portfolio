@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* 1. Set box-sizing for all elements */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/* 2. Make images and videos responsive */
+img, video {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* 3. Responsive containers */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+/* 4. Basic responsive typography */
+body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 15px;
+	}
+	.container {
+		padding: 0 8px;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.2rem;
+	}
+}
