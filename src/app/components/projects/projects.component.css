@@ -1,0 +1,116 @@
+section#projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 80vh;
+	width: 100vw;
+	background: linear-gradient(120deg, #f6fafd 0%, #e3f0fa 100%);
+	box-shadow: none;
+	border-radius: 0;
+	padding: 0;
+}
+
+.tabs {
+	display: flex;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+.tabs button {
+	padding: 0.5rem 1.5rem;
+	border: none;
+	background: #eee;
+	cursor: pointer;
+	border-radius: 5px 5px 0 0;
+	font-weight: bold;
+	transition: background 0.2s;
+}
+.tabs button.active {
+	background: #1976d2;
+	color: #fff;
+}
+.tab-content {
+	background: transparent;
+	padding: 1rem 0;
+	border-radius: 0;
+	box-shadow: none;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.project-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-bottom: 2rem;
+	font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+	font-size: 1.2rem;
+}
+
+.project-card {
+	background: #f6fafd;
+	border-left: 5px solid #0078d4;
+	padding: 1.2rem 1.5rem;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: box-shadow 0.2s;
+	font-family: inherit;
+	font-size: 1.2rem;
+}
+.project-card:hover {
+	box-shadow: 0 4px 16px rgba(0,120,212,0.10);
+}
+.project-img {
+	width: 220px;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 7px;
+	margin-bottom: 1rem;
+	box-shadow: 0 1px 4px rgba(0,120,212,0.07);
+}
+.project-info {
+	text-align: center;
+}
+.project-info h3 {
+	font-weight: 700;
+	font-size: 1.2rem;
+	color: #0078d4;
+	margin-bottom: 0.3rem;
+	font-family: inherit;
+}
+.project-info p {
+	color: #333;
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+	font-family: inherit;
+}
+.project-link {
+	display: inline-block;
+	margin-top: 0.5rem;
+	padding: 0.7rem 2.2rem;
+	background: linear-gradient(90deg, #00c6ff 0%, #0078d4 100%);
+	color: #fff;
+	font-weight: 700;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 1.1rem;
+	font-family: inherit;
+	transition: background 0.2s;
+}
+.project-link:hover {
+	background: #0078d4;
+}
+.about-title {
+	font-size: 2.8rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+	margin-bottom: 1.5rem;
+	text-transform: uppercase;
+}

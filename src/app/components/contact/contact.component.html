@@ -1,0 +1,33 @@
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p class="about-intro animated-intro">
+        <span class="highlight">Interested in working together or have a question?</span>
+        <br />
+        <span class="typewriter">Fill out the form and I'll get back to you as soon as possible!</span>
+      </p>
+    </div>
+    <form class="contact-form" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" ngModel required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" ngModel required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" ngModel required></textarea>
+      </div>
+      <button type="submit" [disabled]="!contactForm.form.valid || sending">{{ sending ? 'Sending...' : 'Send' }}</button>
+      <div *ngIf="successMsg" class="success-message">
+        {{ successMsg }}
+      </div>
+      <div *ngIf="errorMsg" class="error-message">
+        {{ errorMsg }}
+      </div>
+    </form>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+
+<section id='experience' class="experience-section">
+	<h2>Experience</h2>
+	<div class="timeline">
+		<div class="timeline-item" *ngFor="let exp of experiences">
+			<div class="timeline-date">{{ exp.period }}</div>
+			<div class="timeline-content">
+				<h3>{{ exp.title }}</h3>
+				<h4>
+					<a [href]="exp.companyUrl" target="_blank" rel="noopener noreferrer">{{ exp.company }}</a>
+				</h4>
+				<p>{{ exp.description }}</p>
+			</div>
+		</div>
+	</div>
+</section>

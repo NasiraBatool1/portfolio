@@ -1,0 +1,33 @@
+<section id="projects">
+  <h2 class="about-title">Projects</h2>
+  <div class="tabs">
+    <button [class.active]="selectedTab === 'mobile'" (click)="selectTab('mobile')">Mobile Apps</button>
+    <button [class.active]="selectedTab === 'web'" (click)="selectTab('web')">Websites</button>
+  </div>
+  <div class="tab-content">
+    <div *ngIf="selectedTab === 'mobile'">
+      <div class="project-list">
+        <div class="project-card" *ngFor="let project of mobileProjects">
+          <img [src]="project.screenshot" [alt]="project.name + ' screenshot'" class="project-img" />
+          <div class="project-info">
+            <h3>{{ project.name }}</h3>
+            <p>{{ project.description }}</p>
+            <a [href]="project.appStoreUrl" target="_blank" rel="noopener" class="project-link">View on App Store</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="selectedTab === 'web'">
+      <div class="project-list">
+        <div class="project-card" *ngFor="let project of webProjects">
+          <img [src]="project.screenshot" [alt]="project.name + ' screenshot'" class="project-img" />
+          <div class="project-info">
+            <h3>{{ project.name }}</h3>
+            <p>{{ project.description }}</p>
+            <a [href]="project.liveUrl" target="_blank" rel="noopener" class="project-link">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

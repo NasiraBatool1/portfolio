@@ -1,0 +1,71 @@
+/* Modern Footer Styles to Match Navbar */
+.footer {
+	width: 100%;
+	background: linear-gradient(90deg, #1e3c72 0%, #2a5298 50%, #00c6ff 100%);
+	box-shadow: 0 -4px 24px rgba(0,0,0,0.12);
+	padding: 1.2rem 2rem;
+	color: #fff;
+	font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	bottom: 0;
+	z-index: 90;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.footer-links {
+	display: flex;
+	gap: 1.2rem;
+}
+
+.footer-links a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.05rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+	position: relative;
+	transition: color 0.3s;
+}
+
+.footer-links a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: linear-gradient(90deg, #ffeb3b 0%, #00c6ff 100%);
+	border-radius: 2px;
+	transition: width 0.3s;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+
+.footer-links a:hover {
+	color: #ffeb3b;
+	text-shadow: 0 2px 8px #0006;
+}
+.footer-links a:hover::after {
+	width: 100%;
+}
+
+@media (max-width: 900px) {
+	.footer-content {
+		flex-direction: column;
+		gap: 0.7rem;
+	}
+	.footer {
+		padding: 1rem 0.5rem;
+	}
+	.footer-links {
+		gap: 0.7rem;
+	}
+}
