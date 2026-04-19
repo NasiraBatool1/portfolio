@@ -59,4 +59,4 @@ I enjoy working with **Angular, Ionic, PHP, and MySQL**, and I am continuously e
 
 ---
 
-## 📂 Project Structure
+
