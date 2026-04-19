@@ -26,22 +26,24 @@ I enjoy working with **Angular, Ionic, PHP, and MySQL**, and I am continuously e
 ## 📸 Website Preview
 
 ### 🏠 Home Page
-![Home](screenshots/home.png)
+<img width="1850" height="841" alt="home" src="https://github.com/user-attachments/assets/afc83e2b-4c47-41ed-89b9-991c21db0b64" />
+
 
 ### 🙋 About Page
 ![About](screenshots/about.png)
 
 ### 💡 Skills Page
-![Skills](screenshots/skills.png)
+<img width="1867" height="878" alt="skills" src="https://github.com/user-attachments/assets/075d9699-3280-4b2b-8037-ec23aac7d850" />
 
 ### 📁 Projects Page
-![Projects](screenshots/projects.png)
+<img width="1916" height="877" alt="projects" src="https://github.com/user-attachments/assets/188d9826-8855-4e9d-b503-c3f521d29da1" />
 
 ### 💼 Experience Page
-![Experience](screenshots/experience.png)
+<img width="1915" height="872" alt="experience" src="https://github.com/user-attachments/assets/12beca62-7322-4af3-977b-3666bb2cf812" />
 
 ### 📞 Contact Page
-![Contact](screenshots/contact.png)
+<img width="1906" height="893" alt="contact" src="https://github.com/user-attachments/assets/23f65449-5d0e-41ba-9d6f-f8f31f45ade7" />
+
 
 ---
 
