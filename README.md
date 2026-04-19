@@ -1,27 +1,61 @@
-# Portfolio
+# 🌐 Personal Portfolio Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Welcome to my personal portfolio website! 🚀  
+This project showcases my skills, projects, experience, and contact information as a **Software Engineer specializing in Angular, Ionic, and PHP development**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 👩‍💻 About Me
 
-## Code scaffolding
+I am a passionate software engineer focused on building modern, responsive, and scalable  mobile and web applications.  
+I enjoy working with **Angular, Ionic, PHP, and MySQL**, and I am continuously exploring new technologies including AI integration in web apps.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🛠️ Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- ⚡ Frontend: HTML5, CSS3, JavaScript, Angular
+- 🎨 Styling: SCSS / Bootstrap
+- 🔧 Tools: VS Code, Git, GitHub
+- 📧 Email Service: EmailJS (for contact form)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📸 Website Preview
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🏠 Home Page
+<img width="1850" height="841" alt="home" src="https://github.com/user-attachments/assets/afc83e2b-4c47-41ed-89b9-991c21db0b64" />
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 🙋 About Page
+<img width="1891" height="867" alt="about" src="https://github.com/user-attachments/assets/f7e0ac00-50c8-441e-8c59-e20c1dc4f2af" />
+
+### 💡 Skills Page
+<img width="1867" height="878" alt="skills" src="https://github.com/user-attachments/assets/075d9699-3280-4b2b-8037-ec23aac7d850" />
+
+### 📁 Projects Page
+<img width="1916" height="877" alt="projects" src="https://github.com/user-attachments/assets/188d9826-8855-4e9d-b503-c3f521d29da1" />
+
+### 💼 Experience Page
+<img width="1915" height="872" alt="experience" src="https://github.com/user-attachments/assets/12beca62-7322-4af3-977b-3666bb2cf812" />
+
+### 📞 Contact Page
+<img width="1906" height="893" alt="contact" src="https://github.com/user-attachments/assets/23f65449-5d0e-41ba-9d6f-f8f31f45ade7" />
+
+
+---
+
+## 🚀 Features
+
+- Fully responsive design (mobile + desktop)
+- Clean and modern UI
+- Smooth navigation between sections
+- Project showcase section
+- Contact form integration
+- Professional experience timeline
+- Skills visualization
+
+---
+
+
